@@ -18,7 +18,7 @@ app.use(express.json())
   app.use("/tags",tagsRoutes)
 
   app.get('/', function(req, res, next) {
-    res.send('Welcome to AWS polymer search clone');
+    res.send('AWS Polymer Search Clone Server Running Sucessfully');
   });
 
 const port=process.env.PORT
